@@ -1,5 +1,5 @@
 FROM php:7.4-apache
-COPY ../../UniversityTutors /var/www/html/
+COPY . /var/www/html/
 WORKDIR /var/www/html/
 #requisites for running the apache mysql server and laravel dependencies
 RUN apt-get update && apt-get install -y \

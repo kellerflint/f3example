@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+</head>
+<body>
+<p>Home</p>
+<p>{{ @x }}</p>
+<repeat group="{{ @foodTypes }}" value="{{ @food }}">
+    <repeat group="{{ @food }}" value="{{ @col }}">
+        <p>{{ @col }}</p>
+    </repeat>
+</repeat>
+</body>
+</html>

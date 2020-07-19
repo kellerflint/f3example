@@ -1,0 +1,6 @@
+../../UniversityTutors/vendor/
+tmp/
+.idea/
+uploads/
+Sprint-Summary.docx
+composer.lock

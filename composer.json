@@ -1,0 +1,13 @@
+{
+  "name": "/var/www/html/",
+  "authors": [
+    {
+      "name": "Keller Flint",
+      "email": "kflint0068@gmail.com"
+    }
+  ],
+  "require": {
+    "bcosca/fatfree-core": "dev-master",
+    "ext-zip": "*"
+  }
+}
